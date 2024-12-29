@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    background-color: #000000;
+}
+
+main {
+    width: 95%;
+    min-height: 100vh;
+    background-color: rgb(42, 11, 114);
+    justify-self: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    text-shadow: 0 0 5px rgb(96, 96, 240), 0 0 10px rgb(92, 162, 92), 0 0 10px yellow;
+    font-size: 2.5em;
+}
+
+#texto {
+    width: 100%;
+    height: 100px;
+    user-select: none;
+    resize: none;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 5px;
+}
+
+div#container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 360px;
+    flex-flow: wrap;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#img1 {
+    width: 49.6%;
+    height: 140px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+
+#img2 {
+    width: 49.6%;
+    height: 140px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+#botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button.btn01 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+}
+
+button.btn02 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+}
+
+button.btn03 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+}
+
+.btn01 {
+    background-color: #79A7E4;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn02 {
+    background-color: #B0DC82;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn03 {
+    background-color: #F3D776;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#resetar {
+    width: 115px;
+    padding: 10px;
+    background-color: rgb(226, 103, 33);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-top: 5px;
+}
+#resetar:hover {
+    background-color: red;
+    color: white;
+}
+h5 {
+    position: absolute;
+    color: #0000005c;
+    padding-left: 5px;
+    user-select: none;
+    font-size: 1em;
+}
+h5::after{
+    content: '⚡️';
+}
