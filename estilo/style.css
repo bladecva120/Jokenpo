@@ -24,6 +24,7 @@ h1 {
     padding: 30px 0px;
     text-shadow: 0 0 5px rgb(96, 96, 240), 0 0 10px rgb(92, 162, 92), 0 0 10px yellow;
     font-size: 2.5em;
+    margin-top: 20px;
 }
 
 div#imagens {
