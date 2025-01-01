@@ -6,8 +6,9 @@
 
 html,
 body {
-    background: #000000 url('../img/pedra-papel-tesoura.png') center center repeat;
+    background: #000000 url('../img/pedra-papel-tesoura.png') center center no-repeat;
     background-size: cover;
+    min-height: 100vh;
 
 }
 
